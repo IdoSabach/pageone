@@ -1,0 +1,114 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  font-family: 'Raleway', sans-serif;
+}
+
+.title{
+  display: flex;
+  justify-content: space-between;
+}
+.top-left{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.about{
+  margin: 20px;
+}
+.top-right{
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.setting{
+  margin: 20px;
+}
+
+.logo{
+  height: 150px;
+  width: 400px;
+  display: flex;
+  
+}
+img{
+  margin: 0 auto;
+}
+.button{
+  text-align: center;
+  margin: 15px;
+}
+
+.b1{
+  font-size: 15px;
+  border-radius: 6px;
+  font-family: 'Quicksand', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  background: linear-gradient(45deg, #FF6B6B, #FFB88C);
+    color: #fff;
+    border: 2px solid transparent;  
+    border: none;
+    cursor:pointer;
+    transition:ba;
+}
+.b1:hover{
+  background:linear-gradient(45deg,#FFB88C,#FF6B6B);
+}
+
+.b2{
+  font-size: 15px;
+  border-radius: 6px;
+  font-family: 'Quicksand', sans-serif;
+  font-family: 'Raleway', sans-serif; 
+  background: linear-gradient(45deg, #FFB88C, #FF6B6B);
+  color: #fff;
+    border: 2px solid transparent;
+  border: none;
+    cursor:pointer;
+}
+.b2:hover{
+  background:linear-gradient(45deg,#FF6B6B,#FFB88C);
+} 
+
+.box-search{
+  text-align: center;
+  border-radius: 50px;
+  
+}
+.box{
+  width:300px;
+  height: 30px;
+  border-radius: 30px;
+  font-family: 'Quicksand', sans-serif;
+  font-family: 'Raleway', sans-serif;
+}
+
+.down-title{
+  background-color: #eeee;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
+}
+.down-left{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.advertising{
+  margin: 20px;
+}
+.down-right{
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.terms{
+  margin: 20px;
+}
