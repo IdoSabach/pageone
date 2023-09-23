@@ -1,53 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Raleway:wght@600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-  <div class="container">
-
-    <div class="title">
-      <div class="top-left">
-        <div class="about">About</div>
-        <div class="store">Store</div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Raleway:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <div class="top-left">
+          <div class="about">About</div>
+          <div class="store">Store</div>
+        </div>
+        <div class="top-right">
+          <div class="profile">Profile</div>
+          <div class="setting">Setting</div>
+        </div>
       </div>
-      <div class="top-right">
-        <div class="profile">Profile</div>
-        <div class="setting">Setting</div>
+
+      <div class="middle">
+        <img class="logo" src="./logo.png" alt="logo" />
+
+        <div class="box-search">
+          <input id="box" type="text" placeholder="add name" value="" />
+        </div>
+
+        <div class="button">
+          <button class="b1" onclick="addname()">add your name</button>
+          <button class="b2" onclick="addname()">add your other name</button>
+        </div>
+      </div>
+
+      <div class="divi">
+        <div id="fuckblok">
+          list:
+          <div class="divii"></div>
+        </div>
+      </div>
+
+      <div class="down-title">
+        <div class="down-left">
+          <div class="advertising">Advertising</div>
+          <div class="business">Business</div>
+        </div>
+        <div class="down-right">
+          <div class="privacy">Privacy</div>
+          <div class="terms">Terms</div>
+        </div>
       </div>
     </div>
-
-    <div class="middle">
-      <img class="logo" src="./logo.png" alt="logo">
-
-      <div class="box-search">
-        <input class="box" type="text" placeholder="search...">
-      </div>
-
-      <div class="button">
-        <button class="b1">Do the other thing!</button>
-        <button class="b2">Do the thing!</button>
-      </div>
-    </div>
-
-    <div class="down-title">
-      <div class="down-left">
-        <div class="advertising">Advertising</div>
-        <div class="business">Business</div>
-      </div>
-      <div class="down-right">
-        <div class="privacy">Privacy</div>
-        <div class="terms">Terms</div>
-      </div>
-    </div>
-  </div>
-  
-</body>
+  </body>
 </html>
